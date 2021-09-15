@@ -106,7 +106,6 @@ void parallel_temp_mcmc(const std::vector<std::string>& paramFit, int Nburn, int
     mhp::write_mhp_state (mhp_state, A);
 }
 
-// Another comment
 // FUNC2:"posterior_inc -> Determine incidence from posterior samples
 // Arg:"paramFit" -> parameters to calibrate
 // Arg:"mcmc_state" -> class of the current mcmc state
